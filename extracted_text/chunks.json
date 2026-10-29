@@ -1,0 +1,74 @@
+[
+  {
+    "chunk_index": 0,
+    "text": "1 \n \nCase Study \non \nUnified Payments Interface (UPI): A Large-\nScale Software Engineering System \nin partial fulfilment for the award of the degree of \nBACHELOR OF ENGINEERING \nIN \nComputer Science Engineering \nSubmitted by: \nHarkamal Takhi \nUID: 24BCS11583 \nSection & Group: 24BCS_SAP-611-A \nUnder the Guidance of \nDr. Anuj Kumar Jain \n \nINSTITUTE – UIE \nComputer Science and Engineering",
+    "token_count": 103,
+    "page_number": 1
+  },
+  {
+    "chunk_index": 0,
+    "text": "2 \n \nIndex \nS. No. \nTopic \nPage No. \n1.  \nAbstract \n3 \n2.  \nIntroduction \n3 \n3.  \nObjective \n3 \n4.  \nSDLC Model Used \n4 \n5.  \nRequirement Analysis \n5 \n6.  \nSystem Architecture \n6 \n7.  \nData Flow Diagram \n7 \n8.  \nUse Case Diagram \n9 \n9.  \nEntity Relationship Diagram \n10 \n10.  \nData Dictionary \n11 \n11.  \nConclusion \n12",
+    "token_count": 103,
+    "page_number": 2
+  },
+  {
+    "chunk_index": 0,
+    "text": "3 \n \nAbstract \nThe Unified Payments Interface (UPI) is a real-time digital payment system that enables instant \nbank-to-bank transactions through mobile applications. Developed by the National Payments \nCorporation of India (NPCI), UPI has transformed the digital payments landscape by offering \na secure, scalable, and interoperable platform. This case study analyzes UPI from a software \nengineering perspective, focusing on its system architecture, Software Development Life Cycle \n(SDLC) model, requirement analysis, data flow modeling, database design, and security \nengineering mechanisms. The study further evaluates functional and non-functional \nrequirements, risk mitigation strategies, and system performance characteristics. By applying \nhybrid SDLC practices, distributed system design, and layered security architecture, UPI \ndemonstrates how large-scale financial systems can achieve high availability, reliability, and \nscalability. This report provides a structured engineering analysis of UPI to understand its \ndesign principles and implementation strategies. \nIntroduction \nDigital payment systems have significantly evolved over the last decade. Traditional banking \nmethods required physical presence, complex account details, and time-consuming processing. \nTo simplify digital transactions and promote financial inclusion, NPCI introduced the Unified \nPayments Interface (UPI). \nUPI enables users to transfer funds instantly using a Virtual Payment Address (VPA) instead \nof bank account numbers. It supports peer-to-peer (P2P) and peer-to-merchant (P2M) \ntransactions with 24x7 availability. \nFrom a software engineering perspective, UPI represents: \n1. A large-scale distributed system \n2. A secure financial transaction engine \n3. An API-driven architecture \n4. A high-availability infrastructure \nThe success of UPI demonstrates the importance of scalability, security engineering, and \nproper SDLC implementation in mission-critical systems. \nObjective \nThe objectives of this case study are: \n• To analyse the architecture of UPI. \n• To examine the SDLC model used in its development. \n• To identify functional and non-functional requirements. \n• To model system behaviour using Data Flow Diagrams. \n• To design Use Case and Entity Relationship diagrams. \n• To define database components using a Data Dictionary.",
+    "token_count": 447,
+    "page_number": 3
+  },
+  {
+    "chunk_index": 0,
+    "text": "4 \n \n• To evaluate system security and risk mitigation strategies. \n• To understand scalability and performance engineering techniques. \nSDLC Model Used \nUPI follows a Hybrid Software Development Life Cycle model combining structured \nplanning with Agile and DevOps practices. \nRequirement Analysis Phase \nIn this phase, stakeholders such as RBI, NPCI, banks, and fintech partners identified the need \nfor: \n• \nReal-time transactions \n• \nHigh security \n• \nInteroperability among banks \n• \nMobile-first design \n• \nRegulatory compliance \nSystem Design Phase \nThe system architecture was designed using: \n• \nCentral switching model \n• \nAPI-based communication \n• \nEncrypted data transfer \n• \nDistributed servers \n• \nRedundant data centres. \nImplementation Phase \nDevelopers implemented: \n• \nSecure APIs \n• \nAuthentication modules \n• \nTransaction processing logic \n• \nFraud detection systems \n• \nLogging and monitoring mechanisms",
+    "token_count": 193,
+    "page_number": 4
+  },
+  {
+    "chunk_index": 0,
+    "text": "5 \n \nTesting Phase \nTesting included: \n• \nUnit Testing \n• \nIntegration Testing \n• \nSystem Testing \n• \nLoad Testing \n• \nSecurity Testing \n• \nFailover Testing \nDeployment Phase \nDeployment was executed gradually through: \n• \nBank onboarding \n• \nContinuous Integration / Continuous Deployment (CI/CD) \n• \nMonitoring dashboards \nMaintenance Phase \nContinuous updates are provided for: \n• \nSecurity patches \n• \nFeature upgrades \n• \nFraud detection improvements \n• \nRegulatory updates \nRequirement Analysis \nA. Functional Requirements \nFunctional requirements describe what the system must do. \n1. The system shall allow user registration. \n2. The system shall allow linking of bank accounts. \n3. The system shall generate a unique UPI ID. \n4. The system shall enable money transfer between accounts. \n5. The system shall authenticate users using UPI PIN.",
+    "token_count": 185,
+    "page_number": 5
+  },
+  {
+    "chunk_index": 0,
+    "text": "6 \n \n6. The system shall generate transaction confirmation. \n7. The system shall maintain transaction history. \n8. The system shall allow QR code-based payments. \n9. The system shall notify users about transaction status. \n10. The system shall handle transaction failures. \nB. Non-Functional Requirements \nNon-functional requirements describe system quality attributes. \nPerformance \nTransactions must complete within 5 seconds. \nSecurity \nSystem must implement: \n• \nTwo-factor authentication \n• \nEnd-to-end encryption \n• \nDevice binding \nScalability \nSystem must support millions of daily transactions. \nAvailability \nSystem must operate 24x7 with minimal downtime. \nReliability \nSystem must ensure data consistency and no transaction loss. \nMaintainability \nSystem must allow easy updates and modular modifications. \nUsability \nInterface must be simple and user-friendly.",
+    "token_count": 174,
+    "page_number": 6
+  },
+  {
+    "chunk_index": 0,
+    "text": "7 \n \nSystem Architecture \nUPI follows a layered and distributed architecture. \nMajor Components: \n1. User Mobile Application \n2. Payment Service Provider (PSP) Server \n3. NPCI Central Switch \n4. Issuer Bank \n5. Acquirer Bank \n6. Settlement System \nArchitectural Characteristics: \n• \nCentral switching architecture \n• \nAPI-driven communication \n• \nDistributed databases \n• \nRedundant servers \n• \nLoad balancing \nThe NPCI central switch acts as an intermediary routing system between banks. \nData Flow Diagram (DFD) \nLevel 0 DFD (Context Diagram) \nAt this level, the entire UPI system is represented as a single process. \nExternal Entities: \n• \nUser \n• \nIssuer Bank \n• \nAcquirer Bank \nData Flows: \n• \nPayment Request \n• \nAuthentication Data \n• \nTransaction Response",
+    "token_count": 183,
+    "page_number": 7
+  },
+  {
+    "chunk_index": 0,
+    "text": "8 \n \n• \nConfirmation \n \nFig.: Level 0 DFD \nLevel 1 DFD \nThe system is broken into sub-processes: \n1. Authenticate User \n2. Validate Bank Details \n3. Process Transaction \n4. Update Transaction Database \n5. Send Confirmation \nData Stores \n1. User Database \n2. Bank Account Database \n3. Transaction Database \n4. Fraud Detection Logs \n5. Audit Logs",
+    "token_count": 86,
+    "page_number": 8
+  },
+  {
+    "chunk_index": 0,
+    "text": "9 \n \n \nFig.: Level 1 DFD \nUse Case Diagram \nActors: \n1. User \n2. Bank \n3. NPCI System \n4. Administrator \nUse Cases: \n• \nRegister \n• \nLogin \n• \nLink Bank Account \n• \nSend Money \n• \nReceive Money \n• \nCheck Balance \n• \nView Transaction History \n• \nGenerate QR Code \n• \nMonitor Fraud",
+    "token_count": 86,
+    "page_number": 9
+  },
+  {
+    "chunk_index": 0,
+    "text": "10 \n \n \nFig.: Use Case Diagram \nEntity Relationship Diagram (ER Diagram) \nEntities: \nUser (User_ID, Name, Mobile_No) \nBankAccount (Account_ID, Bank_Name, Balance) \nTransaction (Transaction_ID, Amount, Timestamp) \nUPI_ID (UPI_ID, User_ID) \nMerchant (Merchant_ID, Business_Name) \nRelationships: \n• \nOne User has many BankAccounts. \n• \nOne User has one UPI_ID. \n• \nOne BankAccount has many Transactions. \n• \nOne Merchant receives many Transactions. \nPrimary Keys: \n• \nUser_ID \n• \nAccount_ID \n• \nTransaction_ID \nForeign Keys: \n• \nUser_ID in BankAccount",
+    "token_count": 146,
+    "page_number": 10
+  },
+  {
+    "chunk_index": 0,
+    "text": "11 \n \n• \nAccount_ID in Transaction \n \nFig.: ER Diagram  \nData Dictionary \nA Data Dictionary defines each attribute. \nField Name \nData Type \nDescription \nUser_ID \nInteger \nUnique user identifier \nUPI_ID \nVarchar \nVirtual Payment Address \nAccount_ID \nInteger \nBank account identifier \nTransaction_ID \nInteger \nUnique transaction number \nAmount \nDecimal \nMoney transferred \nTimestamp \nDateTime \nData & Time of transaction \nStatus \nVarchar \nSuccess/Failed \nPIN \nEncrypted \nUser authentication PIN",
+    "token_count": 106,
+    "page_number": 11
+  },
+  {
+    "chunk_index": 0,
+    "text": "12 \n \nConclusion \nThe Unified Payments Interface represents a successful implementation of large-scale software \nengineering principles in the financial sector. By adopting a hybrid SDLC model, layered \narchitecture, strong security mechanisms, and distributed scalability strategies, UPI ensures \nreliability, availability, and performance. The system effectively addresses functional \nrequirements such as real-time transactions while meeting non-functional requirements such as \nsecurity, scalability, and usability. Through proper requirement analysis, structured design \nmodeling, and continuous maintenance, UPI demonstrates how engineering methodologies can \nsupport national-level digital infrastructure. This case study highlights the importance of \ncombining system design, data modeling, security engineering, and risk mitigation in building \nmission-critical applications.",
+    "token_count": 144,
+    "page_number": 12
+  }
+]

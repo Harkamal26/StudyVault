@@ -1,0 +1,63 @@
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Node.js dependencies
+node_modules/
+**/node_modules/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and compiled files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environment and test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend build output
+dist/
+**/dist/
+build/
+**/build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Uploaded PDFs and user-specific files
+backend/uploads/
+uploads/
+
+# Local generated data; review before committing
+# Uncomment these if these files are generated locally
+# extracted_text/
+# *.sqlite3
+
+# Local secrets and private certificates
+*.pem
+*.key
+
+
+extracted_text/chunks_with_embeddings.json
